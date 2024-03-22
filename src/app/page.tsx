@@ -1,5 +1,5 @@
 "use client";
-import Tombol_1,{Tombol_2}from "@/component/button";
+import Tombol_1,{Tombol_2, Tombol_3}from "@/component/button";
 
 export default function Home(){
   return(
@@ -8,7 +8,12 @@ export default function Home(){
       <h2>Kuis kota</h2>
       <Tombol_1/>
       <hr></hr>
-      <Tombol_2 isiPesan="Ini Pesanku" namaTombol="Pesan"/>
+      <Tombol_2 isiPesan="Ini pesanku" namaTombol="Pesan"/>
+    </div>
+    <br></br>
+    <div className="bg-red-300" onClick={()=>alert('Parent Element : Div')}>
+      <Tombol_3 isiPesan="Child element : Tombol-1" namaTombol="Tombol-1" />
+      <Tombol_3 isiPesan="Child element : Tombol-2" namaTombol="Tombol-2" />
     </div>
     </>
   )
