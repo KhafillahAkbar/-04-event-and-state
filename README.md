@@ -49,6 +49,17 @@ Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.
 
 ![Screenshot](public/assets//02.png)
 
+### Jawaban Soal 4
+
+Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?
+
+- Jawabannya hampir sama, namun kedua membuat syntax lebih sedikit dan ringkas
+
+### Jawaban Soal 5
+
+Kenapa perlu menghapus state fullName? Apa keuntungannya?
+- Membuat syintax lebih sedikit dan lebih mudah dipahami
+
 
 
 
